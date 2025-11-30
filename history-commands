@@ -1,0 +1,32 @@
+  724  cd Documents/git
+  725  git clone https://github.com/quickshell-mirror/quickshell.git\n
+  726  cd quickshell/
+  734  sudo apt install qt6-base-dev qt6-base-private-dev
+  735  sudo apt install qt6-tools-dev qt6-qmake qt6-svg-dev^M
+  736  sudo apt install qt6-tools-dev qt6-qmake qt6-svg-dev
+  737  sudo apt install qt6-tools-dev qt6-svg-dev
+  741  sudo apt install libqt6qmlcompiler6/stable
+  743  sudo apt install qt6-declarative-dev
+  745  sudo apt install qt6-shadertools-dev
+  746  sudo apt install spirv--tools pkg-config cli11 qt6-wayland-dev
+  747  sudo apt install spirv-tools pkg-config qt6-wayland-dev
+  750  sudo apt install libcli11-dev/stable
+  758  sudo apt install libdrm-dev/stable
+  761  sudo apt install libpolkit-qt6-1-dev/stable
+  764  sudo apt install libpolkit-agent-1-dev/stable
+  767  sudo apt install libjemalloc-dev/stable
+  770  sudo apt install librust-wayland-scanner-dev/stable
+  772  sudo apt install librust-wayland-protocols-dev/stable
+  775  sudo apt install librust-wayland-commons-dev/stable
+  777  sudo apt install --reinstall qt6-wayland-dev
+  778  sudo apt install qt6-wayland-private-dev
+  782  sudo apt install qt6-quick3d-dev/stable
+  784  sudo apt install libqt6quickcontrols2-dev
+  786  sudo apt install --reinstall qt6-declarative-dev
+  789  sudo apt install qt6-quick3d-private-dev/stable
+  792  sudo apt install qml-module-qtquick-privatewidgets/stable
+  794  sudo apt install qt6-base-private-dev qt6-declarative-private-dev
+  795  cmake -GNinja -B build -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCRASH_REPORTER=OFF
+  799  sudo apt install libpam-dev
+  803  cmake --build build
+  804  sudo cmake --install build
