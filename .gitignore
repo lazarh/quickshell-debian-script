@@ -1,0 +1,5 @@
+# Files to ignore
+history-commands
+
+# Folders to ignore
+quickshell/
