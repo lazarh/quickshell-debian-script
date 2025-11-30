@@ -74,8 +74,8 @@ sudo apt install -y \
 ### 3. Manual Build Steps
 
 If you only install the dependencies manually, here are the commands to configure, build, and install:
-Bash
 
+```bash
 # 1. Configuration (CRASH_REPORTER disabled)
 cmake -GNinja -B build -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCRASH_REPORTER=OFF
 
@@ -84,15 +84,15 @@ cmake --build build
 
 # 3. Install
 sudo cmake --install build
+```
 
 ## 🖥️ Usage
 
 After installation, Quickshell is typically configured by creating QML files in a configuration directory.
-
-# 1. Start Quickshell:
 ```bash
+# 1. Start Quickshell:
 quickshell
-```
 # 2. Configuration Directory: Quickshell looks for configs in ~/.config/quickshell/.
 
 # 3. Basic Example: To get started, you might want to clone a simple configuration or create a basic ~/.config/quickshell/shell.qml file. The official Quickshell Examples repository is a great resource.
+```
